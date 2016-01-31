@@ -8,25 +8,7 @@
     </head>
     <body>
     
-        <div class="Navigation">
-	<div id="nav-up">
-		<img src="img/guitar.jpg" width="120" alt="guitar">
-		<p id="title">MINIMALISM</p>
-	</div>
-	<div id="nav-down">
-		
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="writing.html">Writing</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="contact.html">contact</a></li>
-		</ul>
-	</div>
-	<br/>
-	<div class="Copyright"><p>Copyright 2014-2015@Cornell University<br>Shangyuan(Steven) Niu<br>All rights reserved</p></div>
-</div>
-
+        <?php include 'navbar.php';?>
 	<div class="content">
 	    <div class="quote">
 		<p><span class="title2">THIS IS THE LIFE</span> <span class="author">by Annie Dillard</span> </p>
